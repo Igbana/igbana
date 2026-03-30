@@ -1,6 +1,6 @@
 # Hi 👋 I'm Israel Igbana
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&lines=Backend+Developer;Flutter+Developer;Machine+Learning+Enthusiast)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&lines=Backend+Learner;Flutter+Developer;Machine+Learning+Enthusiast)
 
 ---
 
