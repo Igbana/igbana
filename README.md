@@ -1,5 +1,5 @@
 # Software Engineer | Flutter · Python
-I'm a nerd (without glasses). Creaive thinking is second-nature to me, where excellence is required, and arts meet functionality. I go where there is a team; a bit of otsourcing of thoughts and roles, and typical humans to spice up the day.
+I'm a nerd (without glasses). Creative thinking is second-nature to me, where excellence is required, and arts meet functionality. I go where there is a team; a bit of otsourcing of thoughts and roles, and typical humans to spice up the day.
 I love to build applications, always. If you need some help with the backend, I could spin up something fast for an MVP.
 
 ---
