@@ -1,38 +1,36 @@
-# Hi 👋 I'm Israel Igbana
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&lines=Backend+Learner;Flutter+Developer;Machine+Learning+Enthusiast)
-
----
-
-## 🧠 Currently Learning
-
-- Advanced Backend Development
-- Machine Learning for Cybersecurity
-- System Design
+# Software Engineer | Flutter · Python
+I'm a nerd (without glasses). Creaive thinking is second-nature to me, where excellence is required, and arts meet functionality. I go where there is a team; a bit of otsourcing of thoughts and roles, and typical humans to spice up the day.
+I love to build applications, always. If you need some help with the backend, I could spin up something fast for an MVP.
 
 ---
 
-## 🛠 Tech Stack
-
-- Flutter
-- Dart
-- Python
-- FastAPI
-- Django
-- PyTorch
-- Git
+## What I do
+- Mobile · Web · Desktop Application Developent (Flutter with Dart, State management with BLoC, Provider or GetX)
+- Simple Backend/API Developments (for quick modellings, tests and MVPs: Django, Flask, FastAPI)
+- Python Automations (Playwright and BeautifulSoup for web automations)
+- Wannabe Robotics/Machine Learning Engineer
 
 ---
 
-## 📊 GitHub Stats
+## Education
+- Computer Engineering (B.Eng · P.COREN · PNSE), Second-class Upper Division Graduate, Federal University of Technology, Minna.
+- High School STEM Education at Calvary Arrows College, Nigeria (JETS Club, Computer Society, Mathematics Society)
+---
+
+---
+
+## GitHub Stats
 
 ![Israel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Igbana&show_icons=true)
 
 ---
 
-## 📫 Contact
+## Contact
 
+- Email: igbanaaondosoo13@gmail.com
+- LinkedIn: https://github.com/Igbana
 - GitHub: https://github.com/Igbana
+- Mobile No: +234 704 469 1188
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
