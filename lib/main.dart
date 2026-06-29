@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:lottie/lottie.dart';
+import 'package:igbana/pages/landing.dart';
+// import 'pages/wip.dart';
 
 void main() {
   runApp(
-    const MaterialApp(debugShowCheckedModeBanner: false, home: HomePage()),
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+      theme: ThemeData(
+        brightness: .dark,
+        scaffoldBackgroundColor: Color(0xFF14213D),
+      ),
+    ),
   );
 }
 
@@ -13,40 +20,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-    return Scaffold(
-      body: Padding(
-        padding: .symmetric(vertical: 24),
-        child: Column(
-          mainAxisAlignment: .center,
-          crossAxisAlignment: .stretch,
-          children: [
-            Spacer(),
-            Flexible(
-              child: Padding(
-                padding: .only(right: size.width / 10),
-                child: Lottie.asset(
-                  'lib/assets/construction.json',
-                  repeat: true,
-                  reverse: false,
-                  renderCache: .raster,
-                ),
-              ),
-            ),
-            Text(
-              "We are working",
-              style: GoogleFonts.bebasNeue(fontSize: 32),
-              textAlign: .center,
-            ),
-            Spacer(),
-            Text(
-              "© Igbana AI, 2026",
-              style: GoogleFonts.poppins(color: Colors.grey),
-              textAlign: .center,
-            ),
-          ],
-        ),
-      ),
-    );
+    return LandingPage();
   }
 }
