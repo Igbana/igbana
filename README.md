@@ -15,13 +15,6 @@ I love to build applications, always. If you need some help with the backend, I 
 ## Education
 - Computer Engineering (B.Eng · P.COREN · PNSE), Second-class Upper Division Graduate, Federal University of Technology, Minna.
 - High School STEM Education at Calvary Arrows College, Nigeria (JETS Club, Computer Society, Mathematics Society)
----
-
----
-
-## GitHub Stats
-
-![Israel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Igbana&show_icons=true)
 
 ---
 
@@ -30,7 +23,7 @@ I love to build applications, always. If you need some help with the backend, I 
 - Email: igbanaaondosoo13@gmail.com
 - LinkedIn: https://github.com/Igbana
 - GitHub: https://github.com/Igbana
-- Mobile No: +234 704 469 1188
+- Mobile No: +2347044691188
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
