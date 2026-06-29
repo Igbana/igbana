@@ -43,7 +43,6 @@ class LandingPage extends StatelessWidget {
                         Spacer(),
                         Clickable(label: "Home", onTap: () {}),
                         Clickable(label: "Services", onTap: () {}),
-                        Clickable(label: "Skills", onTap: () {}),
                         Clickable(label: "Portfolio", onTap: () {}),
                         Clickable(label: "Contact", onTap: () {}),
                       ],
@@ -59,7 +58,6 @@ class LandingPage extends StatelessWidget {
                   constraints: BoxConstraints(maxWidth: width),
                   child: IntrinsicHeight(
                     child: Column(
-                      // crossAxisAlignment: .stretch,
                       children: [
                         SizedBox(height: 32),
                         ConstrainedBox(
@@ -90,27 +88,27 @@ class LandingPage extends StatelessWidget {
                                 ),
                               ),
                               SizedBox(height: 56),
-                              Container(
-                                padding: .symmetric(
-                                  horizontal: 72,
-                                  vertical: 24,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: Color(0xFFFCA311),
-                                  borderRadius: .circular(12),
-                                ),
-                                child: IntrinsicWidth(
-                                  child: Text(
-                                    "Hire me",
-                                    style: GoogleFonts.poppins(
-                                      fontWeight: .w700,
-                                      color: Color(0xFF0E172B),
-                                    ),
-                                  ),
-                                ),
-                              ),
+                              HireButton(),
                             ],
                           ),
+                        ),
+                        Column(
+                          crossAxisAlignment: .stretch,
+                          children: [
+                            // Text("What I do"),
+                            // Text(
+                            //   "Mobile · Web · Desktop Application Developent (Flutter with Dart, State management with BLoC, Provider or GetX)",
+                            // ),
+                            // Text(
+                            //   "Simple Backend/API Developments (for quick modellings, tests and MVPs: Django, Flask, FastAPI)",
+                            // ),
+                            // Text(
+                            //   "Python Automations (Playwright and BeautifulSoup for web automations)",
+                            // ),
+                            // Text(
+                            //   "Wannabe Robotics/Machine Learning Engineer",
+                            // ),
+                          ],
                         ),
                         Spacer(),
                         Text(
@@ -125,6 +123,42 @@ class LandingPage extends StatelessWidget {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class HireButton extends StatefulWidget {
+  const HireButton({super.key});
+
+  @override
+  State<HireButton> createState() => _HireButtonState();
+}
+
+class _HireButtonState extends State<HireButton> {
+  bool hovered = false;
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onHover: (value) => setState(() => hovered = value),
+      onTap: () {},
+      child: AnimatedContainer(
+        duration: Durations.short4,
+        padding: .symmetric(horizontal: 72, vertical: hovered ? 23 : 24),
+        decoration: BoxDecoration(
+          color: hovered ? null : Color(0xFFFCA311),
+          border: hovered ? .all(color: Color(0xFFFCA311)) : null,
+          borderRadius: .circular(12),
+        ),
+        child: IntrinsicWidth(
+          child: Text(
+            "Hire me",
+            style: GoogleFonts.poppins(
+              fontWeight: .w700,
+              color: Color(0xFF0E172B),
+            ),
+          ),
         ),
       ),
     );
